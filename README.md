@@ -1,2 +1,2 @@
 # maklo-whatsapp-bot
-bot wa
+![preview](screenshot.png)
