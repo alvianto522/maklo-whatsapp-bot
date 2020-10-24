@@ -1,4 +1,4 @@
-const { create, Client, decryptMedia} = require("@open-wa/wa-automate");
+const {create, Client, decryptMedia} = require("@open-wa/wa-automate");
 const gtts = require('node-gtts')('id');
 
 // running text to speech
@@ -44,12 +44,10 @@ let randomemot =  repeat(emot[random], Math.floor(Math.random() * 5));
 	} else {
     client.sendPtt(msg.from, 'http://localhost:1337/?text='+urlencode(json.result)+'&lang=id');
     client.sendText(msg.from, randomemot);
-	
-    }
-	
-				});
-			}
-		}
+	      }
+	  });
+	}
+     }
   });
 }
 
