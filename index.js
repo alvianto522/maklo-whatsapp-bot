@@ -26,8 +26,8 @@ let emot = ["🤣", "😳", "🤨", "😂", "😭", "🥰", "😡"];
 let random = Math.floor(Math.random() * emot.length);
 let randomemot =  repeat(emot[random], Math.floor(Math.random() * 5));
 
-	if(msg.type === 'chat') {	
-	var urlencode = require('urlencode');	
+       if(msg.type === 'chat') {	
+    var urlencode = require('urlencode');	
     const fetch = require('node-fetch');
     fetch('http://tololbgt.coolpage.biz/simi.php?tot='+urlencode(msg.body))
     .then(res => res.json())
