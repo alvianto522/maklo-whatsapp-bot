@@ -1,0 +1,27 @@
+{
+  "name": "maklo-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "maklo bkn makw",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/pajaar/maklo-whatsapp-bot"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "bot-wa",
+    "bot-whatsapp",
+    "whatsapp-automatic",
+    "simsimi",
+    "simsimi-unlimited"
+  ],
+  "author": "pajaar",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.0.6",
+    "node-gtts": "^2.0.2"
+  }
+}
