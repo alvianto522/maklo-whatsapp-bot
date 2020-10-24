@@ -17,3 +17,6 @@
   
 </tr>
 </table>
+
+## Donate
+https://trakteer.id/pajaar/
