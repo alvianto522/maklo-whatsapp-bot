@@ -29,7 +29,9 @@ let randomemot =  repeat(emot[random], Math.floor(Math.random() * 5));
        if(msg.type === 'chat') {	
     var urlencode = require('urlencode');	
     const fetch = require('node-fetch');
-    fetch('https://pjrx.indo-pay.com/api/simi.php?tot='+urlencode(msg.body))
+	       
+    // API has died, don't use it again.
+    fetch('https://xxxxxxx/api/simi.php?tot='+urlencode(msg.body))
     .then(res => res.json())
     .then(json =>{
 	
